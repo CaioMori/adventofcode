@@ -43,7 +43,7 @@
 import fs from 'fs';
 
 function main() {
-  const input = fs.readFileSync('day01.txt', 'utf8');
+  const input = fs.readFileSync('day01/day01.txt', 'utf8');
   const inputArray = input
     .split('\n')
     .map((item) => item.split(' ').filter((item) => item !== ''));
